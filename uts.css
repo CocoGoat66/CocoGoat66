@@ -1,0 +1,944 @@
+*{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+body {
+    
+    margin: 0 auto 0 10%;
+}
+.contain {
+    position: relative;
+    width: 1440px;
+    height: 3787px;
+    background-color: #333333;
+}
+.header {
+    position: absolute;
+    width: 1440px;
+    height: 132px;
+    left: auto;
+    top: 0px;
+    background-color: #1a1a1a;
+}
+.logo {
+    width: 210px;
+    height: 70px;
+    left: 41px;
+    top: 31px;
+    
+}
+.logo-kuta {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 41px;
+    top: 31px;
+}
+.kuta {
+    position: absolute;
+    width: 140px;
+    height: 54px;
+    left: 111px;
+    top: 31px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.bali {
+    position: absolute;
+    width: 35px;
+    height: 24px;
+    left: 112px;
+    top: 73px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.nav {
+    width: 351px;
+    height: 24px;
+    left: 1011px;
+    top: 87px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+.nav li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.nav .home {
+    position: absolute;
+    width: 57px;
+    height: 24px;
+    left: 1011px;
+    top: 77px;
+}
+.nav .about {
+    position: absolute;
+    width: 86px;
+    height: 24px;
+    left: 1087px;
+    top: 77px;    
+}
+.nav .loc {
+    position: absolute;
+    width: 83px;
+    height: 24px;
+    left: 1192px;
+    top: 77px;
+}
+.nav .gallery {
+    position: absolute;
+    width: 68px;
+    height: 24px;
+    left: 1294px;
+    top: 77px;
+}
+.jumbotron {
+    background-repeat: no-repeat;
+    overflow-y: none;
+    position: absolute;
+    width: 110%;
+    height: 611px;
+    left: auto;
+    top: 112px;    
+    
+}
+.jumbotron .jum-bg {
+    overflow-y: hidden;
+    width: 1440px;
+    height: 553px;
+    opacity: 80%;
+    filter: blur(2.5px) drop-shadow(0px -5px 10px rgba(0, 0, 0, 0.25));
+}
+
+.search-bar .search {
+    overflow-y: none;
+    position: absolute;
+    width: 236px;
+    height: 33px;
+    left: 1081px;
+    top: 26px;
+    padding-left: 22px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: rgba(51, 51, 51, 0.8);
+
+    background: #F1F1F1;
+    border-radius: 30px 0px 0px 30px;
+    border: none;
+}
+.search:focus {
+    outline: none;
+}
+.search-bar a {
+    position: absolute;
+    width: 35px;
+    height: 33px;
+    left: 1327px;
+    top: 26px;
+    color: #1a1a1a;
+    background: white;
+    border-radius: 0px 30px 30px 0px;
+}
+.fa-solid {
+    position: absolute;
+    padding: 8px 0 0 8px;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+}
+.jumbotron .isi-title p {
+    position: absolute;
+    width: 450px;
+    height: 73px;
+    left: 148px;
+    top: 173px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 73px;
+
+    align-items: center;   
+    color: #FFFFFF;
+}
+.jumbotron .isi-desc p {
+    position: absolute;
+    width: 519px;
+    height: 88px;
+    left: 147px;
+    top: 270px;
+    overflow-y: hidden;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+.jumbotron .jum-btn {
+    position: absolute;
+    width: 519px;
+    height: 88px;
+    left: 147px;
+    top: 350px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+.jumbotron .jum-btn button {
+    opacity: 80%;
+    width: 200px;
+    height: 35px;
+    left: 148px;
+    top: 488px;
+    font-size: 22px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50px;
+    border: none;
+}
+.jumbotron .kotak {
+    position: absolute;
+    background-color: #d9d9d9 ;
+    width: 1440px;
+    height: 60px;
+    border-radius: 0 0 50px 50px;
+    border-color: none;
+}
+.rekomendasi {
+    overflow-y: hidden;
+    position: absolute;
+    width: 1440px;
+    height: 957px;
+    left: auto;
+    top: 786px;
+}
+.rekomendasi .beachhwalk {
+    position: absolute;
+    width: 913px;
+    height: 331px;
+    left: 126px;
+    top: 786px;
+}
+.rekomendasi .beachwalk .foto {
+    overflow-y: hidden;
+    position: absolute;
+    width: 365px;
+    height: 331px;
+    left: 126px;
+    top: 0px;
+    border-radius: 10px;
+}
+.rekomendasi .tit-beach {
+    position: absolute;
+    width: 254px;
+    height: 48px;
+    left: 564px;
+    top: 0px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+.rekomendasi .subtit-beach {
+    position: absolute;
+    width: 249px;
+    height: 33px;
+    left: 564px;
+    top: 67px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 33px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.rekomendasi .desc-beach {
+    position: absolute;
+    width: 475px;
+    height: 189px;
+    left: 564px;
+    top: 140px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+.rekomendasi .park23 {
+    overflow-x: hidden;
+    position: absolute;
+    width: 1440px;
+    height: 500px;
+    left: 100px;
+    top: 400px;
+}
+.rekomendasi .park23 .foto {
+    position: absolute;
+    width: 365px;
+    height: 355px;
+    left: 929px;
+    top: 0px;
+    
+    border-radius: 10px;
+}
+.rekomendasi .tit-park {
+    position: absolute;
+    width: 280px;
+    height: 48px;
+    left: 611px;
+    top: 0px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+.rekomendasi .subtit-park {
+    position: absolute;
+    width: 434px;
+    height: 37px;
+    left: 441px;
+    top: 52px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 33px;
+    
+    color: #FFFFFF;
+}
+.rekomendasi .desc-park {
+    position: absolute;
+    width: 676px;
+    height: 240px;
+    left: 199px;
+    top: 127px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: #FFFFFF;
+}
+.rekomendasi .kotak {
+position: absolute;
+width: 1440px;
+height: 60px;
+left: 0px;
+top: 897px;
+
+background: #D9D9D9;
+border-radius: 0px 0px 50px 50px;
+}
+.rekomendasi2 {
+    position: absolute;
+    width: 1440px;
+    height: 630px;
+    left: 0px;
+    top: 1847px;    
+}
+.gacoan {
+    overflow-x: auto;
+    position: absolute;
+    width: 350px;
+    height: 443px;
+    left: 126px;
+    top: 0px;
+}
+.gacoan .foto {
+    position: absolute;
+    width: 350px;
+    height: 268px;
+    left: 0;
+    top: 0px;
+    border-radius: 10px;
+}
+.gacoan .bintang{
+    overflow-y: hidden;
+    position: absolute;
+    width: 180px;
+    height: 19px;
+    left: 107px;
+    top: 292px;    
+}
+.gacoan .harga{
+    position: absolute;
+    width: 161px;
+    height: 24px;
+    left: 104px;
+    top: 321px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;  
+    color: #FFFFFF;
+}
+.gacoan .per {
+    position: absolute;
+    width: 87px;
+    height: 24px;
+    left: 140px;
+    top: 349px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.gacoan .btn {
+    position: absolute;
+    left: 120px;
+    top: 398px;
+    border: none;
+    text-align: center;
+    border-radius: 40px;
+}
+.gacoan button {
+    border: none;
+    width: 126px;
+    height: 28px;
+}
+.cafe {
+    overflow-x: auto;
+    position: absolute;
+    width: 350px;
+    height: 449px;
+    left: 545px;
+    top: 0px; 
+}
+.cafe .foto {
+    position: absolute;
+    width: 350px;
+    height: 268px;
+    left: 0;
+    top: 0px;
+    border-radius: 10px;
+}
+.cafe .bintang{
+    overflow-y: hidden;
+    position: absolute;
+    width: 180px;
+    height: 19px;
+    left: 102px;
+    top: 292px;        
+}
+.cafe .harga{
+    position: absolute;
+    width: 165px;
+    height: 24px;
+    left: 94px;
+    top: 321px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+.cafe .per {
+    position: absolute;
+    width: 165px;
+    height: 24px;
+    left: 135px;
+    top: 349px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    
+    color: #FFFFFF;
+}
+.cafe .btn {
+    position: absolute;
+    left: 115px;
+    top: 398px;
+    border: none;
+    text-align: center;
+    border-radius: 40px;
+}
+.cafe button {
+    border: none;
+    width: 126px;
+    height: 28px;
+}
+.hotel {
+    overflow-x: auto;
+    position: absolute;
+    width: 350px;
+    height: 443px;
+    left: 964px;
+    top: 0px;
+}
+.hotel .foto {
+    position: absolute;
+    width: 350px;
+    height: 268px;
+    left: 0;
+    top: 0px;
+    border-radius: 10px;
+}
+.hotel .bintang{
+    overflow-y: hidden;
+    position: absolute;
+    width: 180px;
+    height: 19px;
+    left: 102px;
+    top: 292px;  
+}
+.hotel .harga{
+    position: absolute;
+    width: 192px;
+    height: 24px;
+    left: 84px;
+    top: 321px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.hotel .per {
+    position: absolute;
+    width: 102px;
+    height: 24px;
+    left: 132px;
+    top: 349px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF; 
+}
+.hotel .btn {
+    position: absolute;
+    left: 122px;
+    top: 398px;
+    border: none;
+    text-align: center;
+    border-radius: 40px;
+}
+.hotel button {
+    border: none;
+    width: 126px;
+    height: 28px;
+}
+.rekomendasi2 .kotak {
+    position: absolute;
+    width: 1440px;
+    height: 60px;
+    left: 0px;
+    top: 550px;
+    
+    background: #D9D9D9;
+    border-radius: 0px 0px 50px 50px;
+}
+.jud-map {
+    position: absolute;
+    width: 584px;
+    height: 56px;
+    left: 134px;
+    top: 2588px;
+    
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 30px 30px 0px 0px;
+}
+.jud-map p {
+    position: absolute;
+    width: 64px;
+    height: 36px;
+    left: 268px;
+    top: 10px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    
+    color: rgba(51, 51, 51, 0.8);
+}
+.map {
+    position: absolute;
+    width: 586px;
+    height: 500px;
+    left: 134px;
+    top: 2658px;
+    
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 0px 0px 30px 30px;    
+}
+.komen {
+    overflow-y: hidden;
+    position: absolute;
+    width: 536px;
+    height: 666px;
+    left: 810px;
+    top: 2588px;
+    
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 30px 30px 0px 0px;  
+}
+.komen .nama {
+    position: absolute;
+    width: 382px;
+    height: 69px;
+    left: 57px;
+    top: 56px;
+    padding: 0 20px;
+    background: rgba(51, 51, 51, 0.8);
+    border-radius: 10px;
+    border: none;
+    opacity: 80%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+}
+.komen .email {
+    position: absolute;
+    width: 382px;
+    height: 69px;
+    left: 56px;
+    top: 138px;
+    padding: 0 20px;
+    background: rgba(51, 51, 51, 0.8);
+    border-radius: 10px;
+    border: none;
+    opacity: 80%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+}
+.komen .hari{
+    position: absolute;
+    width: 382px;
+    height: 69px;
+    left: 56px;
+    top: 221px;
+    padding: 0 20px;
+    background: rgba(51, 51, 51, 0.8);
+    border-radius: 10px;
+    border: none;
+    opacity: 80%;
+    font-size: 25px;
+    
+}
+.komen .pesan {
+    position: absolute;
+    width: 382px;
+    height: 302px;
+    left: 56px;
+    top: 308px; 
+    padding: 0 20px; 
+    background: rgba(51, 51, 51, 0.8);
+    border-radius: 10px;
+    border: none;
+    opacity: 80%;  
+    font-size: 25px;
+}
+.pesan:focus {
+    outline: none;
+}
+.hari:focus {
+    outline: none;
+}
+.email:focus {
+    outline: none;
+}
+.nama:focus {
+    outline: none;
+}
+.kom-btn {
+    position: absolute;
+    width: 536px;
+    height: 56px;
+    left: 810px;
+    top: 3274px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 0px 0px 30px 30px;
+}
+.kom-btn button {
+    overflow-y: hidden;
+    position: absolute;
+    width: 100px;
+    height: 36px;
+    left: 218px;
+    top: 10px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    border: none;
+    color: rgba(51, 51, 51, 0.8);
+    background-color: transparent;
+}
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 280px;
+    left: 0px;
+    top: 3507px;
+    background: #D9D9D9;
+    border-radius: 40px 40px 0px 0px;
+}
+footer .content {
+    position: absolute;
+    width: 1440px;
+    height: 280px;
+    left: 0px;
+    top: 0px;
+}
+.creator {
+    position: absolute;
+    width: 371px;
+    height: 112px;
+    left: 146px;
+    top: 37px; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    
+    color: #333333;
+}
+.nav-fot {
+    position: absolute;
+    width: 1440px;
+    height: 200px;
+    left: 0px;
+    top: 17px;
+}
+.nav-fot p a {
+    
+    font-family: 'Inter';
+    text-decoration: none;
+}
+.nav-fot .home {
+    position: absolute;
+    width: 92px;
+    height: 30px;
+    left: 807px;
+    top: 27px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    
+    color: #333333;
+}
+.nav-fot .about {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    left: 807px;
+    top: 57px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    
+    color: #333333;
+}
+.nav-fot .loc {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    left: 807px;
+    top: 87px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    
+    color: #333333;
+}
+.nav-fot .gal {
+    position: absolute;
+    width: 170px;
+    height: 30px;
+    left: 807px;
+    top: 117px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    
+    color: #333333;
+}
+.nav-fot .more {
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    left: 807px;
+    top: 147px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    
+    color: #333333;
+}
+.copyr {
+    position: absolute;
+    width: 1440px;
+    height: 40px;
+    left: 0px;
+    top: 237px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    background: rgba(51, 51, 51, 0.9);
+    color: #FFFFFF;
+}
+.copyr p {
+    padding: 5px 0;
+    position: absolute ;
+    left: 720px;
+}
+.sosmed {
+    position: absolute;
+    width: 159px;
+    height: 200px;
+    left: 1168px;
+    top: 47px;  
+}
+.sosmed p a {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 18px;
+    
+    color: #000000;
+}
+.sosmed p {
+    padding-bottom: 2px;
+}
