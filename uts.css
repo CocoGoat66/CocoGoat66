@@ -3,10 +3,6 @@
     margin: 0;
     padding: 0;
 }
-body {
-    
-    margin: 0 auto 0 10%;
-}
 .contain {
     position: relative;
     width: 1440px;
