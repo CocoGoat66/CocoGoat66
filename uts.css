@@ -8,6 +8,8 @@
     width: 1440px;
     height: 3787px;
     background-color: #333333;
+    margin: auto;
+    padding: auto;
 }
 .header {
     position: absolute;
@@ -916,7 +918,7 @@ footer .content {
 .copyr p {
     padding: 5px 0;
     position: absolute ;
-    left: 720px;
+    left: 600px;
 }
 .sosmed {
     position: absolute;
